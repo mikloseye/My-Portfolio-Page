@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/763894a7da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Playfair+Display:wght@400;600;900&display=swap" rel="stylesheet">
+    <title>Evan Miklosey | Welcome!</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="images/dev-ev.png" height="150px" alt="logo"></a>
+        </div>
+
+       <button class="nav-toggle" aria-label="toggle-navigation">
+        <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav-list">
+                <a href="#home" class="nav-link"><li class="nav-item">Home</a></li>
+                <a href="#services" class="nav-link"><li class="nav-item">Services</a></li>
+                <a href="#about" class="nav-link"><li class="nav-item">About Me</a></li>
+                <a href="#work" class="nav-link"><li class="nav-item">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--INTRODUCTION-->
+
+    <section class="intro" id="home">
+        <h1 class="section-title section-title-intro">
+            Hello, I am <strong>Evan Miklosey</strong>
+        </h1>
+        <p class="section-subtitle section-subtitle-intro">web designer</p>
+        <img src="images/mainphoto.jpeg" alt="myphoto" class="intro-img">
+    </section>
+
+    <!--SERVICES-->
+
+    <section class="my-services" id="services">
+        <h2 class="section-title section-title-services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design</h3>
+                <p>
+                    As a web designer-developer, my mission is to implement my creativity and
+                    the beauty of the web into the world- the world wide web. My job ranges from 
+                    designing mockups, styling the layout, and coding the interactivity within 
+                    the project.                   
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>User Interfaces </h3>
+                <p>
+                    When designing for a product or brand, I understand how crucial it is to send 
+                    the message across to clients to attract customers. That's why it is extremely
+                    vital to create unique and functional interfaces to enhance the user experience. 
+                    I commit my work to ensure easy usability for not just the client, but for you 
+                    and I, as well.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Application Builds</h3>
+                <p>
+                    Our world is constantly expanding all around us. Mobile design is crucial for how
+                    we go about our lives. Building web applications has been a fundamental part of my 
+                    learning journey. Checking the weather, reading emails, and tracking our exercises
+                    are just some examples of why we need mobile apps. I am currently developing my skill
+                    set in React&trade; and Angular&trade;.
+                </p> 
+            </div>
+
+        </div>
+
+        <a href="#work" class="btn">Portfolio</a>
+        
+
+    </section>
+
+    <!--ABOUT-->
+
+    <section class="about-me" id="about">
+        <h2 class="section-title section-title-about">Who I am</h2>
+        <p class="section-subtitle section-subtitle-about">Designer & developer based out of NJ.</p>
+
+        <div class="about-me-body">
+            <p> 
+                After working in restaurants and hotels for ten years, I decided it was time for a career change. 
+                I started to code in early 2019 and haven't stopped since. I've had a knack for computers
+                and general electronics since I was nine years old.  When I am not coding, I am enjoying time with my
+                friends and family. I also love to play the guitar! 
+            </p>
+            <p>
+                Building web pages from the ground up has been a challenging experience, but a rewarding one. I am constantly learning new programming
+                languages and technologies to keep up with the latest tech trends.
+            </p>
+        </div>
+
+        <img src="images/guitar.jpg" alt="developer image" class="about-me-image">
+    </section>
+
+    <!--PORTFOLIO-->
+
+    <section class="my-work" id="work">
+        <h1 class="section-title">My Portfolio</h1>
+        <p class="section-subtitle-work"> A small selection of some of my favorite projects.</p>
+
+        <div class="portfolio">
+            <a href="https://github.com/mikloseye/Guitar-Masterclass-Project" class="portfolio-item">
+                <img src="images/guitars.png" alt="first project" class="portfolio-image" width="500px" height="400px">
+            </a>
+
+            <a href="https://github.com/mikloseye/Shoe-Brand-Project" class="portfolio-item">
+                <img src="images/shoes.png" alt="shoe project" class="portfolio-image" width="500px" height="400px">
+            </a>
+
+            <a href="https://github.com/mikloseye/My-First-Bio-Page" class="portfolio-item">
+                <img src="images/mybio.png" alt="bio project" class="portfolio-image" width="500px" height="400px">
+            </a>
+
+            <a href="https://github.com/mikloseye/Snapshot-Mock-Project" class="portfolio-item">
+                <img src="images/snapshot.png" alt="snapshot project" class="portfolio-image" width="500px" height="400px">
+            </a>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer>
+        <a href="mailto:mikloseye@gmail.com" class="footer-link">mikloseye@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.linkedin.com/in/mikloseye">
+                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.github.com/mikloseye">
+                    <i class="fa-brands fa-github-square fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.instagram.com/mikloseye">
+                    <i class="fa-brands fa-instagram-square fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.twitter.com/mikloseye">
+                    <i class="fa-brands fa-twitter-square fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+<script src="index.js"></script>
+</html>
