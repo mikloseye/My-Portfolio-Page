@@ -145,6 +145,10 @@ h3 {
     font-weight: var(--fw-reg);
 }
 
+h1.section-title.section-title-intro {
+    margin-top: 3.5rem;
+}
+
 .section-title-intro strong {
     display: block;
     font-size: 3.5rem;
